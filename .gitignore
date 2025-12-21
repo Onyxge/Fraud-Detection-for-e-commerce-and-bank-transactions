@@ -2,6 +2,10 @@ models/
 __pycache__/
 .ipynb_checkpoints/
 .venv/
-DS_Store/
+.DS_Store/
 .dvc/config
 notes
+.idea
+file.md
+data/.DS_Store
+.DS_Store
