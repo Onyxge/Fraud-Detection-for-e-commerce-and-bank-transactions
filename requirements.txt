@@ -199,3 +199,7 @@ yarl==1.22.0
 zc.lockfile==4.0
 
 dvc-gdrive
+
+fastapi
+uvicorn
+pydantic
