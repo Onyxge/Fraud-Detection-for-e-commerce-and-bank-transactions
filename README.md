@@ -209,6 +209,27 @@ SHAP waterfall plots were generated for:
 
 ---
 
+## Project Structure
+
+```
+├── dvc/
+├── data/
+├── models/
+├── notebooks/
+│   ├── eda_fraud_data.ipynb
+│   ├── feature-engineering.ipynb
+│   ├── smote_modeling.ipynb
+│   └── eda_creditcard.ipynb
+├── reports/
+├── src/
+│   ├── api/
+│   ├── train_model.py
+│   └── explain_model.py
+├── tests/test_api.py
+├── requirements.txt
+└── README.md
+```
+
 ## API Deployment
 
 A FastAPI service exposes the trained model for real-time fraud prediction.
